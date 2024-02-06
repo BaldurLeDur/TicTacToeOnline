@@ -133,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\client\client.cpp" />
     <ClCompile Include="Case.cpp" />
     <ClCompile Include="Case.h" />
     <ClCompile Include="GameManager.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="client.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Utils.h" />
